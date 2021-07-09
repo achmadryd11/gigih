@@ -3,7 +3,7 @@ require_relative 'person'
 class Game < Person
     def initialize(name, hitpoint, attack_damage)
         super(name, hitpoint, attack_damage)
-        @percentage = 80
+        @percentage = 0.8
     end
 
     def take_damage(damage)
