@@ -2,7 +2,7 @@ require_relative 'game'
 require_relative 'person'
 
 
-jin = Person.new("Jin Sakai", 100, 50)
+jin = Game.new("Jin Sakai", 100, 50)
 puts jin
 puts "\n"
 
