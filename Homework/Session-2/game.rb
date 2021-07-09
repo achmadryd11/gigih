@@ -1,4 +1,5 @@
 require_relative 'person'
+require_relative 'game'
 
 class Game < Person
     def initialize(name, hitpoint, attack_damage)

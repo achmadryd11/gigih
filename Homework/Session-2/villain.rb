@@ -1,6 +1,6 @@
 require_relative 'person'
 
-class Villain < person
+class Villain < Person
     def initialize(name, hitpoint, attack_damage)
         super(name, hitpoint, attack_damage)
         @flee_percentage = 0.5
