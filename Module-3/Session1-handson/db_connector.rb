@@ -4,7 +4,7 @@ require './category'
 
 
 def create_db_client
-    client = Mysql2::Client.new(
+    Mysql2::Client.new(
         :host => "localhost",
         :username => "root",
         :password => "MikoZZan@13",
